@@ -1,0 +1,55 @@
+<!DOCKTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" referrerpolicy="no-referrer" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+	<link rel="stylesheet" href="styles/main.css">
+	<title>modal</title>
+</head>
+<body>
+	
+	<div class="conteiner">
+		<div class="wrapper">
+			<span class="a">Стать:</span>
+			<select class="gender">
+				<option value="nothing" class="nothing">Стать</option>
+				<option value="man" class="gender_man">Чоловік</option>
+				<option value="woman" class="gender_woman">Жінка</option>
+			</select>
+		</div>
+		<div class="modal">
+			<div class="modal_modal">
+				<span>Жінок про вік не питають!</span>
+			</div>
+		</div>
+		<div class="modal_b">
+			<div class="modal_modal_b">
+				<span>Напишіть ваше ім'я!</span>
+				<div class="name_name">
+					<input type="text" id="name" name="name" required
+	       			minlength="3" maxlength="10" size="10" class="input_name">
+				</div>
+			</div>
+		</div>
+		<div class="birthday">
+			<div class="birthday_wraper">
+				<span class="name_brthd">, напишіть рік народження:</span><input type="date" class="input_date">
+				<button type="button" id="btn_c">Підтвердити</button>
+			</div>
+			<span class="helo">Вітаю, можете піти випити пива!</span>
+			<span class="helo_b">Іди вчити уроки!</span>
+		</div>
+		
+	</div>
+	
+	
+
+	
+
+		<script src="js/main.js"></script>	
+</body>
+
+</html>
